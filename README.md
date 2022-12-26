@@ -22,10 +22,6 @@ Identify
 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
 
-
-<img width="748" alt="image" src="https://user-images.githubusercontent.com/121382980/209518574-93983959-e136-43ab-bc01-51e6b4c4cef2.png">
-
-
 ```ruby
 -- Identify Sales by Regions (Year 2010 and Onwards)
 SELECT 
@@ -34,6 +30,21 @@ Round(SUM(EU_Sales),0) AS Europe_Sales,
 Round(SUM(JP_Sales),0) AS Japan_Sales,
 Round(SUM(Other_Sales),0) AS Other_Sales,
 ROUND(SUM(Global_Sales),0) AS Global_Sales
+FROM 
+`Video_Game_Sales.Video_Game_Sales_1980_to_2020`
+WHERE
+CAST(Year AS INT64) >= 2010
+```
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/121382980/209518574-93983959-e136-43ab-bc01-51e6b4c4cef2.png">
+
+```ruby
+-- Identify Sales by Regions as % (2010 and onwards)
+SELECT 
+ROUND(SUM(NA_Sales)/SUM(Global_Sales)*100,0) AS North_America_Sales_Percentage,
+ROUND(SUM(EU_Sales)/SUM(Global_Sales)*100,0) AS Europe_Sales_Percentage,
+ROUND(SUM(JP_Sales)/SUM(Global_Sales)*100,0) AS Japan_Sales_Percentage,
+ROUND(SUM(Other_Sales)/SUM(Global_Sales)*100,0) AS Other_Sales_Percentage,
+ROUND(SUM(Global_Sales)/SUM(Global_Sales)*100,0) AS Global_Sales_Percentage
 FROM 
 `Video_Game_Sales.Video_Game_Sales_1980_to_2020`
 WHERE
