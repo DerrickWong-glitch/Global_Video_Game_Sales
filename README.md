@@ -18,7 +18,13 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 Identify 
 
+
+
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
+
+
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/121382980/209518574-93983959-e136-43ab-bc01-51e6b4c4cef2.png">
+
 
 ```ruby
 -- Identify Sales by Regions (Year 2010 and Onwards)
