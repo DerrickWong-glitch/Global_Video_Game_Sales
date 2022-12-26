@@ -5,11 +5,11 @@ Table of contents
 
 * [Purpose](#Purpose)
 * [Data Source](#Data-Source)
-* [SQL Code and Analysis](#SQL Code and Analysis)
-  * [Sales by Regions](#Sales by Regions)
-  * [Sales by Genre](#Sales by Genre)
-  * [Sales by Platform](#Sales by Platform)
-* [Conclusion and Recommendations](#Conclusion and Recommendations)
+* [SQL Code and Analysis](#SQL-Code-and-Analysis)
+  * [Sales by Regions](#Sales-by-Regions)
+  * [Sales by Genre](#Sales-by-Genre)
+  * [Sales by Platform](#Sales-by-Platform)
+* [Conclusion and Recommendations](#Conclusions-and-Recommendations)
    
 <!--te-->
 
@@ -102,7 +102,7 @@ ORDER BY
 Global_Sales DESC
 ```
 
-## Conclusion and Recommendations
+## Conclusions and Recommendations
 
 1) Largest portion of the marketing budget should be spent on North American region as this market (sales since 2010 USD 1,113m or 44% of global sales) represents the largest game console market
 2) Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the devlopment of game for the top four best selling genre (i.e. action, shooter, sports and role-playing)
