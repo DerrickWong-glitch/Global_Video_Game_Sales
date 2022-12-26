@@ -24,7 +24,7 @@ The link to the data is found at: https://www.kaggle.com/datasets/gregorut/video
 ## SQL Code and Analysis
 
 ### Sales by Regions
-North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010
+North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010.
 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
 
@@ -61,7 +61,7 @@ CAST(Year AS INT64) >= 2010
 ### Sales by Genre
 
 The top four console gaming genres are action, shooter, sports and role-playing. 
-These top four console gaming genres represent over 70% (USD 1,767m) of total console games sold since 2010
+These top four console gaming genres represent over 70% (USD 1,767m) of total console games sold since 2010.
 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
 
@@ -82,7 +82,7 @@ Sum_of_Global_Sales DESC
 
 ### Sales by Platform
 
-The console gaming platforms are dominated by three main companies Sony (PS and PSP series), Microsoft (XBox Series), Nintendo (DS and Wii).
+The console gaming platforms are dominated by three main companies Sony (PS and PSP series), Microsoft (Xbox Series), Nintendo (DS and Wii).
 
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/121382980/209521139-6d2e8caf-6035-4108-a6a2-9baaea7148ad.png">
 
@@ -104,5 +104,5 @@ Global_Sales DESC
 ## Conclusions and Recommendations
 
 * Largest portion of the marketing budget should be spent on North American region as this region is the largest gaming console market - sales since 2010 is USD 1,113m or 44% of global sales) 
-* Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the devlopment of game for the top four best selling genre (i.e. action, shooter, sports and role-playing; over 70% of console games sold are in one of these four genres)
-* Sony, Microft and Nintendo dominate the platform for console gaming. It is extremely vital that gaming companies work closely and maintain good relationship these three gaming platform companies.
+* Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the development of game for the top four best-selling genre (i.e., action, shooter, sports and role-playing; over 70% of console games sold are in one of these four genres)
+* Sony, Microsoft and Nintendo dominate the platform for console gaming. It is extremely vital that gaming companies work closely and maintain good relationship these three gaming platform companies.
