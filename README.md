@@ -4,7 +4,7 @@ Table of contents
 =================
 
 * [Purpose](#Purpose)
-* [Data Source](#Data Source)
+* [Data Source](#Data-Source)
 * [SQL Code and Analysis](#SQL Code and Analysis)
   * [Sales by Regions](#Sales by Regions)
   * [Sales by Genre](#Sales by Genre)
