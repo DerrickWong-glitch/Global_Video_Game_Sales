@@ -16,11 +16,10 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 ### Sales by Regions
 
-North America (USD 1,113m) is the largest market for video game sales , followed by Europe (USD 839m), Japan (USD 299m) and the rest of the world (USD 270m) since 2010
+North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010
 
 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
-
 ```ruby
 -- Identify Sales by Regions (Year 2010 and Onwards)
 SELECT 
@@ -35,7 +34,6 @@ WHERE
 CAST(Year AS INT64) >= 2010
 ```
 <img width="748" alt="image" src="https://user-images.githubusercontent.com/121382980/209518574-93983959-e136-43ab-bc01-51e6b4c4cef2.png">
-
 ```ruby
 -- Identify Sales by Regions as % (2010 and onwards)
 SELECT 
