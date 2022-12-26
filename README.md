@@ -13,7 +13,7 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 ### Sales by Genre
 
-Action, shooter, sports and role-playing games are the top three most popular console games by genre since 2010
+Action, shooter, sports and role-playing games are the top three most popular console gaming genres since 2010
 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
 
@@ -31,7 +31,6 @@ Genre
 ORDER BY
 Sum_of_Global_Sales DESC
 ```
-
 
 ### Sales by Platform
 
@@ -58,7 +57,6 @@ Global_Sales DESC
 ### Sales by Regions
 
 North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010
-
 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
 
