@@ -18,7 +18,7 @@ North America (USD 1,113m / 44%) is the largest market for video game, followed 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
 
 ```ruby
--- Identify Sales by Regions (Year 2010 and Onwards)
+-- Identify Sales by Regions since Year 2010
 SELECT 
 Round(SUM(NA_Sales),0) AS North_America_Sales,
 Round(SUM(EU_Sales),0) AS Europe_Sales,
@@ -34,7 +34,7 @@ CAST(Year AS INT64) >= 2010
 <img width="748" alt="image" src="https://user-images.githubusercontent.com/121382980/209518574-93983959-e136-43ab-bc01-51e6b4c4cef2.png">
 
 ```ruby
--- Identify Sales by Regions as % (2010 and onwards)
+-- Identify Sales by Regions as % since Year 2010
 SELECT 
 ROUND(SUM(NA_Sales)/SUM(Global_Sales)*100,0) AS North_America_Sales_Percentage,
 ROUND(SUM(EU_Sales)/SUM(Global_Sales)*100,0) AS Europe_Sales_Percentage,
@@ -55,7 +55,7 @@ These top four console gaming genres represent over 70% (USD 1,767m) of total co
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
 
 ```ruby
--- Identify best selling game by genre from 2010 onwards
+-- Identify best selling game by genre since Year 2010
 SELECT 
 Genre,
 Round(SUM(Global_Sales),0) AS Sum_of_Global_Sales
@@ -76,7 +76,7 @@ The console gaming platforms are dominated by three main companies Sony (PS and 
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/121382980/209521139-6d2e8caf-6035-4108-a6a2-9baaea7148ad.png">
 
 ```ruby
--- Identify best selling game by platform since 2010
+-- Identify best selling game by platform since Year 2010
 SELECT 
 Platform,
 ROUND(SUM(Global_Sales)) AS Global_Sales
