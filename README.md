@@ -11,8 +11,17 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 ## SQL Code and Analysis
 
+
+
+
+### Sales by Regions
+
+Identify 
+
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
+
 ```ruby
--- Identify Sales by Regions (2010 and onwards)
+-- Identify Sales by Regions (Year 2010 and Onwards)
 SELECT 
 Round(SUM(NA_Sales),0) AS North_America_Sales,
 Round(SUM(EU_Sales),0) AS Europe_Sales,
