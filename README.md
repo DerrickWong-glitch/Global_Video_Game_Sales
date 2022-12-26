@@ -11,49 +11,6 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 ## SQL Code and Analysis
 
-### Sales by Genre
-
-Action, shooter, sports and role-playing games are the top three most popular console gaming genres since 2010
-
-<img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
-
-```ruby
--- Identify best selling game by genre from 2010 onwards
-SELECT 
-Genre,
-Round(SUM(Global_Sales),0) AS Sum_of_Global_Sales
-FROM 
-`Video_Game_Sales.Video_Game_Sales_1980_to_2020`
-WHERE
-CAST(Year AS INT64) >= 2010
-GROUP BY
-Genre
-ORDER BY
-Sum_of_Global_Sales DESC
-```
-
-### Sales by Platform
-
-The consoling gaming platforms are dominated by three main companies Sony (PS and PSP series), Microsoft (XBox Series), Nintendo (DS and Wii).
-
-<img width="592" alt="image" src="https://user-images.githubusercontent.com/121382980/209521139-6d2e8caf-6035-4108-a6a2-9baaea7148ad.png">
-
-```ruby
--- Identify best selling game by platform since 2010
-SELECT 
-Platform,
-ROUND(SUM(Global_Sales)) AS Global_Sales
-FROM 
-`Video_Game_Sales.Video_Game_Sales_1980_to_2020`
-WHERE
-CAST(Year AS INT64) >= 2010
-GROUP BY 
-Platform
-ORDER BY
-Global_Sales DESC
-```
-
-
 ### Sales by Regions
 
 North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010
@@ -89,3 +46,50 @@ FROM
 WHERE
 CAST(Year AS INT64) >= 2010
 ```
+
+### Sales by Genre
+
+Action, shooter, sports and role-playing are the top three most popular console gaming genres since 2010
+
+<img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
+
+```ruby
+-- Identify best selling game by genre from 2010 onwards
+SELECT 
+Genre,
+Round(SUM(Global_Sales),0) AS Sum_of_Global_Sales
+FROM 
+`Video_Game_Sales.Video_Game_Sales_1980_to_2020`
+WHERE
+CAST(Year AS INT64) >= 2010
+GROUP BY
+Genre
+ORDER BY
+Sum_of_Global_Sales DESC
+```
+
+### Sales by Platform
+
+The console gaming platforms are dominated by three main companies Sony (PS and PSP series), Microsoft (XBox Series), Nintendo (DS and Wii).
+
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/121382980/209521139-6d2e8caf-6035-4108-a6a2-9baaea7148ad.png">
+
+```ruby
+-- Identify best selling game by platform since 2010
+SELECT 
+Platform,
+ROUND(SUM(Global_Sales)) AS Global_Sales
+FROM 
+`Video_Game_Sales.Video_Game_Sales_1980_to_2020`
+WHERE
+CAST(Year AS INT64) >= 2010
+GROUP BY 
+Platform
+ORDER BY
+Global_Sales DESC
+```
+
+## Recommendations
+
+1) Largest portion of the marketing budget should be spent on North American region as this market (Sales USD 1,113m / 44% of Global Market Sales) represents the largest game console market
+2) 
