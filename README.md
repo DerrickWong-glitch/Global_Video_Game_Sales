@@ -49,7 +49,8 @@ CAST(Year AS INT64) >= 2010
 
 ### Sales by Genre
 
-Action, shooter, sports and role-playing are the top three most popular console gaming genres since 2010
+The top four console gaming genres are action, shooter, sports and role-playing. 
+These top four console gaming genres represent over 70% (USD 1,767m) of total console games sold since 2010
 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/121382980/209519950-3f4181ce-decd-4f27-8025-ede59b39e0e0.png">
 
@@ -92,4 +93,5 @@ Global_Sales DESC
 ## Recommendations
 
 1) Largest portion of the marketing budget should be spent on North American region as this market (Sales USD 1,113m / 44% of Global Market Sales) represents the largest game console market
-2) 
+2) Unless a gaming company is able to carve out a niche market, the safer option is to focus effort in the devlopment of either one of the top four best selling console gaming gener (i.e. action, shooter, sports and role-playing)
+3) 
