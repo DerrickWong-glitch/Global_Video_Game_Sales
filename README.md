@@ -1,4 +1,4 @@
-# Global_Video_Game_Sales
+# Personal Project - Analysis of Global Video Game Sales using SQL
 ## Pesonal Project
 
 
