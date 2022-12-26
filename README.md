@@ -11,7 +11,7 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 
 ## SQL Code and Analysis
 
-''' Ruby
+```ruby
 -- Identify Sales by Regions (2010 and onwards)
 SELECT 
 Round(SUM(NA_Sales),0) AS North_America_Sales,
@@ -23,4 +23,4 @@ FROM
 `Video_Game_Sales.Video_Game_Sales_1980_to_2020`
 WHERE
 CAST(Year AS INT64) >= 2010
-'''
+```
