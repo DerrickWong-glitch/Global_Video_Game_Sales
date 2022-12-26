@@ -103,6 +103,6 @@ Global_Sales DESC
 
 ## Conclusions and Recommendations
 
-1) Largest portion of the marketing budget should be spent on North American region as this region is the largest gaming console market - sales since 2010 is USD 1,113m or 44% of global sales) 
-2) Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the devlopment of game for the top four best selling genre (i.e. action, shooter, sports and role-playing; over 70% of console games sold are in one of these four genres)
-3) Sony, Microft and Nintendo dominate the platform for console gaming. It is extremely vital that gaming companies work closely and maintain good relationship these three gaming platform companies.
+* Largest portion of the marketing budget should be spent on North American region as this region is the largest gaming console market - sales since 2010 is USD 1,113m or 44% of global sales) 
+* Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the devlopment of game for the top four best selling genre (i.e. action, shooter, sports and role-playing; over 70% of console games sold are in one of these four genres)
+* Sony, Microft and Nintendo dominate the platform for console gaming. It is extremely vital that gaming companies work closely and maintain good relationship these three gaming platform companies.
