@@ -2,7 +2,7 @@
 
 ## Purpose
 1) To provide a basic analysis of the global console video game sales since 2010
-2) To serve as a platform to save and share my sql code
+2) To serve as a platform to save and share my SQL code
 
 Table of contents
 =================
