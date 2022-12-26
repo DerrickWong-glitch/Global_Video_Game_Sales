@@ -1,7 +1,7 @@
 # Analysis of Global Video Game Sales using SQL (Personal Project)
 
 ## Purpose
-1) To provide an analysis of the global console video game sales since 2010
+1) To provide an basic analysis of the global console video game sales since 2010
 2) To serve as a platform to save and share my sql code
 
 Table of contents
