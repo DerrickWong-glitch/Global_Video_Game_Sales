@@ -4,7 +4,12 @@ Table of contents
 =================
 
 * [Purpose](#Purpose)
-   * [Data Source)(## Data Source)
+* [Data Source](## Data Source)
+* [SQL Code and Analysis](## SQL Code and Analysis)
+  * [Sales by Regions](### Sales by Regions)
+  * [Sales by Genre](### Sales by Genre)
+  * [Sales by Platform](### Sales by Platform)
+* [Conclusion and Recommendations](## Conclusion and Recommendations)
    
 <!--te-->
 
@@ -21,7 +26,6 @@ The link is to the data is found at: https://www.kaggle.com/datasets/gregorut/vi
 ## SQL Code and Analysis
 
 ### Sales by Regions
-
 North America (USD 1,113m / 44%) is the largest market for video game, followed by Europe (USD 839m / 33%), Japan (USD 299m / 12%) and the rest of the world (USD 270m / 11%) since 2010
 
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/121382980/209517964-2cdce15a-411d-49ad-9f1c-e94951019298.png">
@@ -99,7 +103,7 @@ ORDER BY
 Global_Sales DESC
 ```
 
-## Recommendations
+## Conclusion and Recommendations
 
 1) Largest portion of the marketing budget should be spent on North American region as this market (sales since 2010 USD 1,113m or 44% of global sales) represents the largest game console market
 2) Unless a gaming company is able to carve out a niche market, the safer option is to focus effort on the devlopment of game for the top four best selling genre (i.e. action, shooter, sports and role-playing)
