@@ -12,7 +12,7 @@ Table of contents
   * [Sales by Regions](#Sales-by-Regions)
   * [Sales by Genre](#Sales-by-Genre)
   * [Sales by Platform](#Sales-by-Platform)
-* [Conclusion and Recommendations](#Conclusions-and-Recommendations)
+* [Conclusions and Recommendations](#Conclusions-and-Recommendations)
    
 <!--te-->
 
