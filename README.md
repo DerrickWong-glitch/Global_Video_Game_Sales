@@ -109,5 +109,6 @@ Global_Sales DESC
 
 ## Limitations
 
-* Data for the costs of developement of game by genres are lacking from avaliable dataset; there is a need to consider profitability of each game genres (e.g. sports games tend to have minimal new updates (hence, low development costs) but sold a full game price each new sports season annually)
-* Opinions of the subject matter expert should be sought - many other considerations such as regultory issues, customers preferences, hidden gaps in the market)
+* Data for the costs of development of game by genres are lacking from available dataset; there is a need to consider profitability of each game genres (e.g. sports games tend to have minimal new updates (hence, low development costs) but sold a full game price each new sports season annually)
+* Opinions of the subject matter expert should be sought - many other considerations such as regulatory  issues, customers preferences, hidden gaps in the market)
+
