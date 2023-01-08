@@ -106,3 +106,8 @@ Global_Sales DESC
 * Largest portion of the marketing budget should be utilized in North American region as this region presents the largest gaming console market - sales since 2010 is USD 1,113m or 44% of global sales) 
 * Unless the gaming company can carve out a niche market, the safer option is to focus effort on the development of game for the top four best-selling genre (i.e., action, shooter, sports and role-playing) - over 70% of console games sold are in one of these four genres
 * Sony, Microsoft and Nintendo dominate the platform for console gaming. It is extremely vital that gaming companies work closely and maintain good relationship these three gaming platform companies.
+
+## Limitations
+
+* Data for the costs of developement of game by genres are lacking from avaliable dataset; there is a need to consider profitability of each game genres (e.g. sports games tend to have minimal new updates (hence, low development costs) but sold a full game price each new sports season annually)
+* Opinions of the subject matter expert should be sought - many other considerations such as regultory issue, customers preference, hidden gaps in the market)
